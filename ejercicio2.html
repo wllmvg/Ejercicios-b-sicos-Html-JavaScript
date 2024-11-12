@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<!--cabecera de la página-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum scale=1">
+    <title>Ejercicio 2</title>
+    <!-- Declaracion de estilos -->
+    <script type="text/javascript">
+        function cambiar2(){
+            document.getElementById('info').innerHTML = "<b>Nombre:</b> William Felipe Melgarejo Vega<br><b>Carrera:</b> Ingenieria De Software<br><b>Código:</b> 01220371001";
+        }
+    </script>
+</head>
+<!-- Cuerpo -->
+<body>
+    <h1>Ejercicio #2 con JS</h1>
+    <!-- Pongo un ID a una etiqueta la cual cambiará su contenido al dar click-->
+    <p id="info">Esta linea mostrará información del estudiante a traves de JS</p>
+    <!--Llamo a la función de JS a traves del click en el boton-->
+    <button type="button" onclick="cambiar2()">Click!</button>
+</body>
+</html>
